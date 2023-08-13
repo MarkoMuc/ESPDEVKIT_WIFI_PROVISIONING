@@ -128,6 +128,7 @@ esp_err_t post_handler(httpd_req_t *req)
                     && content[j+2] == 'S' && content[j+3] == 'I'
                     && content[j+4] == 'D' && content[j+5] == '=') {
                     password[count] = '\0';
+                 
                     break;
                 }
                 password[count] = content[j];

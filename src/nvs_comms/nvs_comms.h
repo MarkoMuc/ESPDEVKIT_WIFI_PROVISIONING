@@ -14,9 +14,12 @@
 #include "esp_system.h"
 #endif
 
-#define KEY_BOOT "BTYPE"
-#define KEY_PASS "PASS"
-#define KEY_SSID "SSID"
+// MACROS
+
+#define KEY_BOOT "BTYPE" // Key for storing the boot type
+#define KEY_PASS "PASS" // Key for storing the password
+#define KEY_SSID "SSID" // Key for storing the ssid
+
 
 // Description: Initializes the NVS flash and reads the boot_type from it
 //              

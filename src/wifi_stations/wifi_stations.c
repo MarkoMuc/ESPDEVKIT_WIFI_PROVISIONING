@@ -76,7 +76,7 @@ void init_ap(void* event, int* leds) {
 }
 
 void init_sta(void* event, int* leds) {
-    char password[32];
+    char password[64];
     char ssid[32];
     
     ESP_LOGI("WIFI STA", "Getting Credentials.");
