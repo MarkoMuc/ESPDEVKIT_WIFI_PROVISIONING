@@ -12,7 +12,7 @@ Web Server should be on **192.168.4.1**.
 
 ## Compiling and usage
 
-The implementation is done in the Espressif Framework, to compile faster and easier, I recommend the use of platform.io extension for Visual Studio Code(the development was done with aforementioned extension). If you decide not to, make sure to enlarge the size of HTTP header, this was done in sdkconfig.esp32dev.
+The implementation is done in the Espressif Framework, for faster and easier compiling, I recommend the use of platformIO extension for Visual Studio Code(the development was done with aforementioned extension). If you decide not to, make sure to enlarge the size of HTTP header, this was done in sdkconfig.esp32dev.
 
 ## How it works
 
